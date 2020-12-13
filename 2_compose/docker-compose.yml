@@ -1,0 +1,10 @@
+version: '3'
+services:
+  convos:
+    image: nordaaker/convos:release-4.33
+    container_name: convos
+    volumes:
+      - ./usr/convo:/convos
+    ports:
+      - "2020:5000"
+ 
