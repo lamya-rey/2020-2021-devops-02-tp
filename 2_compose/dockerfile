@@ -1,0 +1,9 @@
+version: "3"
+services:
+build:
+image: https://convos.chat/
+container_name: convos
+ports:
+- "2020"
+volumes:
+-./dir:/data

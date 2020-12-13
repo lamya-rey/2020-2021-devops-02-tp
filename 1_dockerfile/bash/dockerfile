@@ -1,0 +1,4 @@
+FROM ubuntu:20.04
+COPY to_run.sh /app/
+WORKDIR /app
+CMD ubuntu20  ./to_run.sh
